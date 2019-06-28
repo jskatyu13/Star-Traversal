@@ -6,7 +6,7 @@ with open("hygxyz.csv") as csv_file:
     data = [r for r in csv_reader]
 print("Reading HYG formatted CSV file named 'hygxyz.csv'.")
 
-# create two dictionaries which contain stars' coordinates and stars' ID and name
+# create two dictionaries which contain stars' coordinates and stars' name
 star_ID={}
 star_Name={}
 for index in range(len(data)):
