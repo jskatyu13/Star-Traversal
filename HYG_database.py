@@ -1,3 +1,4 @@
+# Star Traversal 
 # read HYG database
 import csv
 from math import sqrt
